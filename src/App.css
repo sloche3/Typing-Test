@@ -1,38 +1,73 @@
-.App {
+.grid-container {
+  /*margin: 20px;*/
+  height: 973px;
+  display: grid; /* Activate grid */
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: space-around;
+  background-color: lightgray;
+
+}
+
+.grid-item {
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+  grid-area: 1 / 2 / span 3 / span 1;
+}
+
+.currText {
+  background-color: darkgray;
+  border: 9px solid darkgray;
+  color: rgb(69, 69, 69);
+  border-radius: 10px;
+  /*background-size: 750px 45px;*/
+  width: 750px;
+  display: inline-block;
+
+  user-select:none;
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
+  -moz-user-select:none;
+  -ms-user-select:none; 
+}
+
+.no-select {
+  user-select:none;
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+}
+
+.inputBox {
+  width: 700px;
+  height: 20px;
+  font-size: 20px;
+  display: inline-block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.instructions {
+  font-size: 19px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.startTracking {
+  background-color: rgb(21, 142, 0);
+  color: whitesmoke;
+  margin-right: 5px;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.stopTracking {
+  background-color: rgb(193, 15, 18);
+  color: whitesmoke;
+  margin-left: 5px;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.retry {
+  background-color: goldenrod;
+  margin-left: 5px;
+  font-size: 16px;
 }
