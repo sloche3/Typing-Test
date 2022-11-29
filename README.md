@@ -17,6 +17,7 @@ For this project, I wanted to teach myself how to use ReactJS, and I also wanted
 ## Some stuff I learned about
 
 **ReactJS**
+
 So from my understanding, ReactJS is similar to an OOP is the sense that you create classes/components, and each of these classes/components are display elements. You can create multiple "instances" of each component, and put them together to make a complete display. I see how this could make ReactJS very convenient if you find yourself reusing elements of a display often. 
 Also, I know there's an html somewhere in this project, and I believe it holds some type of importance, but I it seemed like I could do pretty much everything without it since I only used JavaScript and a CSS file.
 
@@ -25,6 +26,7 @@ One more thing, I'm pretty sure you need to install Node.js to develop using Rea
 ---
 
 **Netflify**
+
 I'm using Netlify to "deploy" my React app (I put deploy in quotes because I'm not sure if that's the right term for what it's actually doing, but I'm not very concerned with the little details right now). Anyways, there seems to be 2 general methods for deploying a React app using Netlify: manually or through GitHub. 
 I tried the GitHub method first because it's supposed to update the website with each push to GitHub, which seemed like the best/most convenient way to way deploy the web app, just incase I wanted to make any changes in the future. However, I was running into errors with the *react-reveal* feature that I was using. So, I decided to just avoid the hassle and go the manual route.
 To deploy a manual build of your React app, just open the command line, go to the project directory and use the `npm run build` command to build a deployable version of your project. From here just go to Netlify in your browser and select "Add new site", choose "Deploy manually", and upload the project build folder. Netlify will then give you a live link to your website.
@@ -34,7 +36,10 @@ I know there's an option for using a custom domain, so that's definitely somethi
 ---
 
 **React-Reveal**
+
 React Reveal is a framework for animations in ReactJS. It's kinda self explanatory, but to install it you need to run the `npm i react-reveal` command.
+
+---
 
 ## Resources 
 There may have been other resources used, but I went through a lot of stuff, and closed a lot of tabs...
